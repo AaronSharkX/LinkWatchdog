@@ -12,7 +12,7 @@ plotly>=5.17.0
 werkzeug>=3.0.0
 
 # Threat intelligence and analysis
-python-whois>=1.20240129.0
+python-whois==0.9.5
 dnspython>=2.4.0
 
 # Data processing and storage
