@@ -1,0 +1,40 @@
+
+{
+  "weights": {
+    "ip_address": 35,
+    "no_https": 25,
+    "suspicious_words": 15,
+    "long_url": 10,
+    "suspicious_tld": 25,
+    "url_shortener": 15,
+    "encoded_content": 30,
+    "homograph_attack": 40,
+    "typosquatting": 35,
+    "high_entropy": 20,
+    "redirect_chain": 15
+  },
+  "thresholds": {
+    "critical": 70,
+    "high": 50,
+    "medium": 25,
+    "low": 10
+  },
+  "whitelist": [
+    "google.com", "microsoft.com", "apple.com", "amazon.com", "meta.com",
+    "facebook.com", "twitter.com", "x.com", "linkedin.com", "instagram.com",
+    "youtube.com", "netflix.com", "github.com", "gitlab.com", "stackoverflow.com",
+    "replit.com", "codepen.io", "npmjs.com", "pypi.org", "docker.com",
+    "steam.com", "steamcommunity.com", "epicgames.com", "paypal.com",
+    "stripe.com", "visa.com", "mastercard.com", "reddit.com", "wikipedia.org",
+    "discord.com", "slack.com", "zoom.us", "whatsapp.com"
+  ],
+  "suspicious_words": [
+    "login", "verify", "secure", "update", "confirm", "account", "suspend",
+    "limited", "expired", "urgent", "immediately", "click", "winner",
+    "congratulations", "free", "prize", "gift", "bonus", "reward"
+  ],
+  "suspicious_tlds": ["tk", "ml", "ga", "cf", "pw"],
+  "url_shorteners": ["bit.ly", "tinyurl.com", "t.co", "goo.gl", "short.link"],
+  "max_redirects": 5,
+  "request_timeout": 10
+}

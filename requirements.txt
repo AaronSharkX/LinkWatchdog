@@ -1,0 +1,26 @@
+
+# Advanced URL Security Analyzer v2.0 - Dependencies
+# Core dependencies
+requests>=2.32.0
+pandas>=2.3.0
+tldextract>=5.3.0
+scikit-learn>=1.7.0
+
+# Web interface and visualization
+flask>=3.1.0
+plotly>=5.17.0
+werkzeug>=3.0.0
+
+# Threat intelligence and analysis
+python-whois>=1.20240129.0
+dnspython>=2.4.0
+
+# Data processing and storage
+joblib>=1.5.0
+numpy>=1.24.0
+
+# Optional: Enhanced features
+# cryptography>=41.0.0  # For SSL certificate analysis
+# maxminddb>=2.4.0      # For geolocation data
+# yara-python>=4.3.0    # For malware signature detection
+whois

@@ -1,0 +1,23 @@
+
+# Sample URLs for testing the analyzer
+# Lines starting with # are ignored
+
+# Safe URLs
+https://google.com
+https://github.com
+https://stackoverflow.com
+https://replit.com
+
+# Suspicious URLs
+http://paypal-login.com/verify
+http://192.168.1.1/admin
+http://free-robux-generator.tk/claim
+https://bit.ly/suspicious123
+
+# Phishing attempts
+http://аррle.com/login
+http://login-steam.com
+http://secure-bank-update.ml/verify
+
+# URLs with encoded content
+http://example.com/redirect?data=aHR0cHM6Ly9mYWtlLWxvZ2luLmNvbQ==

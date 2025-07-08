@@ -1,0 +1,12 @@
+
+services:
+  - type: web
+    name: url-security-analyzer
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.7
+      - key: PORT
+        value: 10000

@@ -1,0 +1,9 @@
+url,domain,url_length,has_ip,num_dashes,num_digits,suspicious_keywords,domain_length,subdomain_length,brand_similarity,num_encoded_chars,num_base64_strings,decoded_suspicious_keywords,suspicion_score,confidence,cluster,prediction
+http://paypal-login.com/verify,paypal-login.com,30,0,1,0,2,12,0,0.6666666666666666,0,0,0,2,100,0,suspicious
+https://secure.paypal.com,paypal.com,25,0,0,0,1,6,6,1.0,0,0,0,1,50,0,safe
+http://192.168.1.1/login,192.168.1.1.,24,1,0,8,1,11,0,0.0,0,0,0,2,100,0,suspicious
+https://steamcommunity.com/tradeoffer/new/,steamcommunity.com,42,0,0,0,0,14,0,0.5263157894736842,0,0,0,0,0,0,safe
+http://freerobux.xyz,freerobux.xyz,20,0,0,0,1,9,0,0.5333333333333333,0,0,0,1,50,0,safe
+http://login-steam.com,login-steam.com,22,0,1,0,1,11,0,0.625,0,0,0,1,50,0,safe
+https://epicgames.com,epicgames.com,21,0,0,0,0,9,0,1.0,0,0,0,0,0,0,safe
+http://epicgames-free.com,epicgames-free.com,25,0,1,0,1,14,0,0.782608695652174,0,0,0,1,50,0,safe
